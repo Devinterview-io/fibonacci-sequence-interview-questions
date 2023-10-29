@@ -4,7 +4,7 @@ The **Fibonacci Sequence** is a series of numbers where each number is the sum o
 
 Check out our carefully selected list of **basic** and **advanced** Fibonacci Sequence questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Fibonacci Sequence Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/fibonacciSeries.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698605517&Signature=c0AWakgJvojOS2%2FgKZeoHzOz7kcrW1MAubhfy6GiYB6up1ngum07FWoPsfS2PMnXuodvZC2Sbq%2FjMggVnGCgDvo1EOJy%2FSsXrN%2FIVgX9brlLB7wKDSF3cHMC0nxpcW1ZmOxuTA1O%2BlsgZu477RKNw%2B69JqXOVxZbIvaGlCWlYBVa3HARqXgDWp7REJ5G%2FTiXvoMkNET6anKeitu4khd1JEhLury64jPmcBpF7yy8zhrXt7qbQBI9Y73R38bu0XzrhC28mH%2FY804xxCgs6NvhFbQ0OYjeQfV2z9Y%2BFmeE2sNTdjMkDYmAHM9I3Fa%2Bqz6moHbVw0r1L29O3GOQATepHw%3D%3D)
+![Fibonacci Sequence Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FfibonacciSeries.png?alt=media&token=47155ca0-8df7-4c0d-8bcb-273321b1a239&_gl=1*37uwfx*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA3Mjc0LjIuMC4w)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
 
