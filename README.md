@@ -1,60 +1,252 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">
-      Top 14 Fibonacci Series interview
-      questions and answers in 2021.
-    </h1> <p data-v-5e9078c0="" align="center"><a data-v-5e9078c0="" href="https://devinterview.io/"><img data-v-5e9078c0="" src="https://source.unsplash.com/collection/52661698/700x350"></a></p> <p data-v-5e9078c0="">
-      You can check all
-      14
-      Fibonacci Series interview questions here 👉
-      https://devinterview.io/data/fibonacciSeries-interview-questions
-    </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is Fibonacci Sequence of numbers?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <strong>Fibonacci Sequence</strong> is the series of numbers:</p><pre><code><span class="token cNum">0</span><span class="token cBase">,</span> <span class="token cNum">1</span><span class="token cBase">,</span> <span class="token cNum">1</span><span class="token cBase">,</span> <span class="token cNum">2</span><span class="token cBase">,</span> <span class="token cNum">3</span><span class="token cBase">,</span> <span class="token cNum">5</span><span class="token cBase">,</span> <span class="token cNum">8</span><span class="token cBase">,</span> <span class="token cNum">13</span><span class="token cBase">,</span> <span class="token cNum">21</span><span class="token cBase">,</span> <span class="token cNum">34</span><span class="token cBase">,</span> <span class="token cBase">...</span></code></pre><p>Fibonacci sequence characterized by the fact that every number after the <strong>first two is the sum of the two preceding ones</strong>:</p><pre><code><span class="token cMod">Fibonacci</span><span class="token cBase">(</span><span class="token cNum">0</span><span class="token cBase">)</span> <span class="token cBase">=</span> <span class="token cNum">0</span><span class="token cBase">,</span> 
-<span class="token cMod">Fibonacci</span><span class="token cBase">(</span><span class="token cNum">1</span><span class="token cBase">)</span> <span class="token cBase">=</span> <span class="token cNum">1</span><span class="token cBase">,</span>
-<span class="token cMod">Fibonacci</span><span class="token cBase">(</span>n<span class="token cBase">)</span> <span class="token cBase">=</span> <span class="token cMod">Fibonacci</span><span class="token cBase">(</span>n<span class="token cBase">-</span><span class="token cNum">1</span><span class="token cBase">)</span> <span class="token cBase">+</span> <span class="token cMod">Fibonacci</span><span class="token cBase">(</span>n<span class="token cBase">-</span><span class="token cNum">2</span><span class="token cBase">)</span>  </code></pre><p><strong>Fibonacci sequence</strong>, appears a lot in nature. Patterns such as spirals of shells, curve of waves, seed heads, pinecones, and branches of trees can all be described using this mathematical sequence. The fact that things as large as spirals of galaxies, and as small as DNA molecules follow the Golden Ratio rule suggests that Fibonacci sequence is one of the most fundamental characteristics of the Universe.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.mathsisfun.com/numbers/fibonacci-sequence.html" rel="noreferrer" target="_blank" title="What is Fibonacci Sequence of numbers? Interview Questions Source To Answer">www.mathsisfun.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is Golden Ratio?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>When we take any two successive (one after the other) Fibonacci Numbers, their ratio is very close to the Golden Ratio <code>φ</code> which is approximately <code>1.618034...</code>. In fact, the bigger the pair of Fibonacci Numbers, the closer the approximation. Let us try a few:</p><pre><code><span class="token cNum">3</span><span class="token cBase">/</span><span class="token cNum">2</span> <span class="token cBase">=</span> <span class="token cNum">1.5</span>
-<span class="token cNum">5</span><span class="token cBase">/</span><span class="token cNum">3</span> <span class="token cBase">=</span> <span class="token cNum">1.666666666</span><span class="token cBase">...</span>
-<span class="token cBase">...</span>
-<span class="token cNum">233</span><span class="token cBase">/</span><span class="token cNum">377</span> <span class="token cBase">=</span> <span class="token cNum">1.618055556</span><span class="token cBase">...</span></code></pre><p>This also works when we pick two random whole numbers to begin the sequence, such as 192 and 16 (we get the sequence 192, 16, 208, 224, 432, 656, 1088, 1744, 2832, 4576, 7408, 11984, 19392, 31376, ...):</p><pre><code><span class="token cNum">16</span><span class="token cBase">/</span><span class="token cNum">192</span> <span class="token cBase">=</span> <span class="token cNum">0.08333333</span><span class="token cBase">...</span>
-<span class="token cNum">208</span><span class="token cBase">/</span><span class="token cNum">16</span> <span class="token cBase">=</span> <span class="token cNum">13</span>
-<span class="token cBase">...</span>
-<span class="token cNum">11984</span><span class="token cBase">/</span><span class="token cNum">7408</span> <span class="token cBase">=</span> <span class="token cNum">1.61771058</span><span class="token cBase">...</span>
-<span class="token cNum">19392</span><span class="token cBase">/</span><span class="token cNum">11984</span> <span class="token cBase">=</span> <span class="token cNum">1.61815754</span><span class="token cBase">...</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.mathsisfun.com/numbers/fibonacci-sequence.html" rel="noreferrer" target="_blank" title="What is Golden Ratio? Interview Questions Source To Answer">www.mathsisfun.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. Return the N-th value of the Fibonacci sequence Recursively</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Recursive solution looks pretty simple (see code).</p><p>Let’s look at the diagram that will help you understand what’s going on here with the rest of our code. Function fib is called with argument 5:</p><p></p><div><div><div><div></div></div></div></div><p></p><p>Basically our <strong>fib</strong> function will continue to recursively call itself creating more and more branches of the tree until it hits the base case, from which it will start summing up each branch’s return values bottom up, until it finally sums them all up and returns an integer equal to 5.</p></div></div><div><div class="mb-2 mt-2"><span class="h5">Complexity Analysis</span></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Time:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text selected-complexity effect7"><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text ">O(n!)</div></div></div></div><div class="hide-large"><p><b>Time:</b> <mark>O(2^n)</mark></p><p><b>Space:</b> <mark></mark></p></div><div class="mt-3"><div><div class="AnswerBody"><p>In case of recursion the solution take <strong>exponential</strong> time, that can be explained by the fact that the size of the tree exponentially grows when n increases. So for every additional element in the Fibonacci sequence we get an increase in function calls. Big O in this case is equal to <code><i>O</i>(<i>2</i><sup>n</sup>)</code>. Exponential Time complexity denotes an algorithm whose growth doubles with each addition to the input data set. </p></div></div></div></div><div style="font-size: 14px;"><div class="mb-3 mt-2"><span class="h5">Implementation</span></div><div><nav class="mdc-tab-bar"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll" style="margin-bottom: 0px;"><div class="mdc-tab-scroller__scroll-content"><button class="mdc-ripple-upgraded mdc-ripple-upgraded--background-focused mdc-tab mdc-tab--min-width mdc-tab--active" aria-selected="true" tabindex="0"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>JavaScript</span>&nbsp;<span class="shadow-text lang-badge js">JS</span></span></div><span class="mdc-tab-indicator mdc-tab-indicator--active"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded mdc-ripple-upgraded--background-focused"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Java</span>&nbsp;<span class="shadow-text lang-badge java">Java</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Python</span>&nbsp;<span class="shadow-text lang-badge py">PY</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button></div></div></div></nav></div><div class="mt-2"><div class="AnswerBody"><pre><code><span class="token cVar">function</span> <span class="token cMod">fib</span><span class="token cBase">(</span><span class="token parameter">n</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-  <span class="token cVar">if</span> <span class="token cBase">(</span>n <span class="token cBase">&lt;</span> <span class="token cNum">2</span><span class="token cBase">)</span><span class="token cBase">{</span>
-    <span class="token cVar">return</span> n
-  <span class="token cBase">}</span>
-  <span class="token cVar">return</span> <span class="token cMod">fib</span><span class="token cBase">(</span>n <span class="token cBase">-</span> <span class="token cNum">1</span><span class="token cBase">)</span> <span class="token cBase">+</span> <span class="token cMod">fib</span> <span class="token cBase">(</span>n <span class="token cBase">-</span> <span class="token cNum">2</span><span class="token cBase">)</span>
-<span class="token cBase">}</span></code></pre></div></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e" rel="noreferrer" target="_blank" title="Return the N-th value of the Fibonacci sequence Recursively Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. Return the N-th value of the Fibonacci sequence. Solve in O(n) time</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The easiest solution that comes to mind here is iteration: </p><pre><code><span class="token cVar">function</span> <span class="token cMod">fib</span><span class="token cBase">(</span><span class="token parameter">n</span><span class="token cBase">)</span><span class="token cBase">{</span>
-  <span class="token cVar">let</span> arr <span class="token cBase">=</span> <span class="token cBase">[</span><span class="token cNum">0</span><span class="token cBase">,</span> <span class="token cNum">1</span><span class="token cBase">]</span><span class="token cBase">;</span>
-  <span class="token cVar">for</span> <span class="token cBase">(</span><span class="token cVar">let</span> i <span class="token cBase">=</span> <span class="token cNum">2</span><span class="token cBase">;</span> i <span class="token cBase">&lt;</span> n <span class="token cBase">+</span> <span class="token cNum">1</span><span class="token cBase">;</span> i<span class="token cBase">++</span><span class="token cBase">)</span><span class="token cBase">{</span>
-    arr<span class="token cBase">.</span><span class="token cMod">push</span><span class="token cBase">(</span>arr<span class="token cBase">[</span>i <span class="token cBase">-</span> <span class="token cNum">2</span><span class="token cBase">]</span> <span class="token cBase">+</span> arr<span class="token cBase">[</span>i <span class="token cBase">-</span><span class="token cNum">1</span><span class="token cBase">]</span><span class="token cBase">)</span>
-  <span class="token cBase">}</span>
- <span class="token cVar">return</span> arr<span class="token cBase">[</span>n<span class="token cBase">]</span>
-<span class="token cBase">}</span></code></pre><p>And output:</p><pre><code>fib(4)
-=&gt; 3</code></pre><p>Notice that two first numbers can not really be effectively generated by a for loop, because our loop will involve adding two numbers together, so instead of creating an empty array we assign our arr variable to <code>[0, 1]</code> that we know for a fact will always be there. After that we create a loop that starts iterating from i = 2 and adds numbers to the array until the length of the array is equal to <code>n + 1</code>. Finally, we return the number at n index of array.</p></div></div><div><div class="mb-2 mt-2"><span class="h5">Complexity Analysis</span></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Time:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text selected-complexity effect7">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text ">O(n!)</div></div></div></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Space:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text selected-complexity effect7">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text ">O(n!)</div></div></div></div><div class="hide-large"><p><b>Time:</b> <mark>O(n)</mark></p><p><b>Space:</b> <mark>O(n)</mark></p></div><div class="mt-3"><div><div class="AnswerBody"><p>An algorithm in our iterative solution takes linear time to complete the task. Basically we iterate through the loop n-2 times, so Big O (notation used to describe our worst case scenario) would be simply equal to O<code>(n)</code> in this case. The space complexity is <code>O(n)</code>.</p></div></div></div></div><div style="font-size: 14px;"><div class="mb-3 mt-2"><span class="h5">Implementation</span></div><div><nav class="mdc-tab-bar"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll" style="margin-bottom: 0px;"><div class="mdc-tab-scroller__scroll-content"><button class="mdc-ripple-upgraded mdc-ripple-upgraded--background-focused mdc-tab mdc-tab--min-width mdc-tab--active" aria-selected="true" tabindex="0"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>JavaScript</span>&nbsp;<span class="shadow-text lang-badge js">JS</span></span></div><span class="mdc-tab-indicator mdc-tab-indicator--active"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded mdc-ripple-upgraded--background-focused"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Java</span>&nbsp;<span class="shadow-text lang-badge java">Java</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button><button class="mdc-ripple-upgraded mdc-tab mdc-tab--min-width"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Python</span>&nbsp;<span class="shadow-text lang-badge py">PY</span></span></div><span class="mdc-tab-indicator"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded"></div></button></div></div></div></nav></div><div class="mt-2"><div class="AnswerBody"><pre><code><span class="token cVar">function</span> <span class="token cMod">fib</span><span class="token cBase">(</span><span class="token parameter">n</span><span class="token cBase">)</span><span class="token cBase">{</span>
-  <span class="token cVar">let</span> arr <span class="token cBase">=</span> <span class="token cBase">[</span><span class="token cNum">0</span><span class="token cBase">,</span> <span class="token cNum">1</span><span class="token cBase">]</span>
-  <span class="token cVar">for</span> <span class="token cBase">(</span><span class="token cVar">let</span> i <span class="token cBase">=</span> <span class="token cNum">2</span><span class="token cBase">;</span> i <span class="token cBase">&lt;</span> n <span class="token cBase">+</span> <span class="token cNum">1</span><span class="token cBase">;</span> i<span class="token cBase">++</span><span class="token cBase">)</span><span class="token cBase">{</span>
-    arr<span class="token cBase">.</span><span class="token cMod">push</span><span class="token cBase">(</span>arr<span class="token cBase">[</span>i <span class="token cBase">-</span> <span class="token cNum">2</span><span class="token cBase">]</span> <span class="token cBase">+</span> arr<span class="token cBase">[</span>i <span class="token cBase">-</span><span class="token cNum">1</span><span class="token cBase">]</span><span class="token cBase">)</span>
-  <span class="token cBase">}</span>
- <span class="token cVar">return</span> arr<span class="token cBase">[</span>n<span class="token cBase">]</span>
-<span class="token cBase">}</span></code></pre></div></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/quick-code/fibonacci-sequence-javascript-interview-question-iterative-and-recursive-solutions-6a0346d24053" rel="noreferrer" target="_blank" title="Return the N-th value of the Fibonacci sequence. Solve in _`O(n)`_ time Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. Get the N-th Fibonacci number with O(n) time and O(1) space complexity</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. Display startNumber to endNumber only from Fibonacci Sequence</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. Test if a Number belongs to the Fibonacci Series</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Can a Fibonacci function be written to execute in O(1) time?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. How to use Memoization for N-th Fibonacci number?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. Binet's formula: How to calculate Fibonacci numbers without Recursion or Iteration?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. Calculate n-th Fibonacci number using Tail Recursion</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. Get Fibonacci Number in O(log n) time using Matrix Exponentiation</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. Explain what is Fibonacci Search technique?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. Generating Fibonacci Sequence using ES6 generator functions</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/fibonacciSeries-interview-questions">all 14 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# ⚫ Fibonacci Sequence in Tech Interviews 2024: 10 Key Questions & Answers
+
+The **Fibonacci Sequence** is a series of numbers where each number is the sum of the two preceding ones, often starting with 0 and 1. In coding interviews, it's frequently used to evaluate a candidate's grasp of **recursion**, **iteration**, and optimization techniques like **dynamic programming**.
+
+Check out our carefully selected list of **basic** and **advanced** Fibonacci Sequence questions and answers to be well-prepared for your tech interviews in 2024.
+
+![Fibonacci Sequence Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/fibonacciSeries.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698605517&Signature=c0AWakgJvojOS2%2FgKZeoHzOz7kcrW1MAubhfy6GiYB6up1ngum07FWoPsfS2PMnXuodvZC2Sbq%2FjMggVnGCgDvo1EOJy%2FSsXrN%2FIVgX9brlLB7wKDSF3cHMC0nxpcW1ZmOxuTA1O%2BlsgZu477RKNw%2B69JqXOVxZbIvaGlCWlYBVa3HARqXgDWp7REJ5G%2FTiXvoMkNET6anKeitu4khd1JEhLury64jPmcBpF7yy8zhrXt7qbQBI9Y73R38bu0XzrhC28mH%2FY804xxCgs6NvhFbQ0OYjeQfV2z9Y%2BFmeE2sNTdjMkDYmAHM9I3Fa%2Bqz6moHbVw0r1L29O3GOQATepHw%3D%3D)
+
+👉🏼 You can also find all answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 1. What is _Fibonacci Sequence_?
+
+### Answer
+
+The **Fibonacci Sequence** is a series of numbers where each number $F(n)$ is the sum of the two preceding ones, often starting with 0 and 1. That is:
+
+$$
+F(n) = F(n-1) + F(n-2)
+$$
+
+with initial conditions
+
+$$
+F(0) = 0, \quad F(1) = 1
+$$
+
+### Golden Ratio
+
+The ratio of consecutive Fibonacci numbers approximates the Golden Ratio ($\phi \approx 1.6180339887$):
+
+$$
+\lim_{{n \to \infty}} \frac{{F(n+1)}}{{F(n)}} = \phi
+$$
+
+### Real-World Occurrences
+
+The sequence frequently manifests in nature, such as in flower petals, seedhead spirals, and seashell growth patterns.
+
+### Visual Representation
+
+![Fibonacci Spiral](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/fibonacci-sequence%2Fwhat-is-fibonacci-sequence%20%20.svg?alt=media&token=023579c2-a056-4aa8-8af5-a82082d3a621)
+
+### Code Example: Calculating The Nth Fibonacci Number
+
+Here is the Python code:
+
+```python
+# Using recursion
+def fibonacci_recursive(n):
+    if n <= 0: return 0
+    elif n == 1: return 1
+    return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+    
+# Using dynamic programming for efficiency
+def fibonacci_dynamic(n):
+    fib = [0, 1]
+    for i in range(2, n+1):
+        fib.append(fib[-1] + fib[-2])
+    return fib[n]
+```
+
+---
+
+## 🔹 2. Can a _Fibonacci Function_ be written to execute in _O(1)_ time?
+
+### Answer
+
+While a **naive recursive** approach takes exponential time $O(2^n)$, **dynamic programming** or **memoization** can reduce it to linear time $O(n)$. However, achieving $O(1)$ time complexity **isn't feasible** for several reasons:
+
+1. **Input Size**: Reading the input $n$ already takes $O(\log n)$ bits.
+  
+2. **Output Size**: Fibonacci numbers grow exponentially, requiring $O(n)$ space to store the $n$th number.
+
+3. **Arithmetic Operations**: Even ignoring input and output sizes, the calculations themselves require at least $O(\log n)$ time with arbitrary precision arithmetic.
+
+Therefore, for arbitrarily large inputs, **it's impossible** to compute Fibonacci numbers in $O(1)$ time or space.
+
+---
+
+## 🔹 3. Explain what is _Fibonacci Search Technique_.
+
+### Answer
+
+**Fibonacci Search** is an algorithm tailored for finding an element in a sorted array. Unlike the traditional **Binary Search** that splits the array into two halves, Fibonacci Search uses divisions related to **Fibonacci numbers**, achieving efficiency and simplicity.
+
+### Key Features
+
+- **Divisions**: Instead of equal segments, the array is divided into unequal parts, providing adaptability.
+- **Simplicity**: The method employs basic arithmetic operations.
+- **Memory Efficiency**: It's especially beneficial for extensive arrays.
+
+### Algorithm
+
+1. **Fibonacci Calculation**: Find the smallest Fibonacci number, $F(n)$, such that $F(n) - 1 \geq \text{length}$.
+2. **Division Points**: The array is divided at points $p = F(n-2) - 1$ and $q = F(n-1) - 1$.
+3. **Search**: Iteratively reduce the search segment until the target is located or dismissed.
+
+### Complexity Analysis
+
+- **Time Complexity**: $O(\log n)$
+- **Space Complexity**: $O(1)$
+
+### Code Example: Fibonacci Search
+
+Here is the Python code:
+
+```python
+# Finding smallest Fibonacci number greater than or equal to k
+def get_fibonacci(k):
+    fib_2, fib_1, fib = 0, 1, 1
+    while fib < k:
+        fib_2, fib_1, fib = fib_1, fib, fib_1 + fib_2
+    return fib_2, fib_1, fib
+
+# Implementing Fibonacci Search
+def fibonacci_search(arr, key):
+    length = len(arr)
+    left, right = 0, length - 1
+    fib_2, fib_1, fib = get_fibonacci(length + 1)
+
+    while left <= right:
+        middle = min(left + fib_2, right)
+        if arr[middle] == key:
+            return middle
+        elif arr[middle] > key:
+            right = middle - 1
+            fib_2, fib_1, fib = fib_1 - fib_2, fib_2, fib_1
+        else:
+            left = middle + 1
+            fib_2, fib_1, fib = fib_1 - fib_2, fib_2 - fib_1, fib_2
+    return -1
+
+# Test
+arr = [1, 3, 5, 7, 9, 11]
+key = 9
+index = fibonacci_search(arr, key)
+print(f"Element {key} found at index {index}!" if index != -1 else "Element not found.")
+```
+
+---
+
+## 🔹 4. How to generate _Fibonacci Sequence_ using ES6 _Generator Functions_?
+
+### Answer
+
+**ES6** introduced **generators**, specialized iterators that can generate sequences like the Fibonacci numbers. A generator function for Fibonacci can produce either a **finite** or **infinite** sequence.
+
+### Generator Syntax
+
+```javascript
+function* fibonacci(n = null, current = 0, next = 1) {
+    // ...
+}
+```
+
+- `n`: Count of Fibonacci numbers to generate. Null or undefined implies an infinite sequence.
+- `current` and `next`: The starting numbers in the sequence.
+
+### Iterative Approach
+
+The generator function can produce the sequence using a `while` loop. It stops once it generates `n` numbers or if `n` is null/undefined, generating an infinite sequence.
+
+```javascript
+function* fibonacciIterative(n) {
+    const infinite = !n && n !== 0;
+    let current = 0, next = 1;
+
+    while (infinite || n--) {
+        yield current;
+        [current, next] = [next, current + next];
+    }
+}
+
+// Example
+const fibIterativeGenerator = fibonacciIterative(10);
+```
+
+### Recursive Approach
+
+Alternatively, the generator function can use recursion. It yields the current Fibonacci number and then calls itself with updated values.
+
+```javascript
+function* fibonacciRecursive(n = null, current = 0, next = 1) {
+    if (n === 0) return current;
+
+    yield current;
+    yield* fibonacciRecursive(n ? n - 1 : null, next, current + next);
+}
+
+// Example
+const fibRecursiveGenerator = fibonacciRecursive(10);
+```
+
+### Convert to Array
+
+To convert the generated sequence to an array, use `Array.from()`.
+
+```javascript
+const fibNumbers = Array.from(fibIterativeGenerator);
+```
+
+---
+## 🔹 5. Test if a _Number_ belongs to the _Fibonacci Sequence_.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 6. Calculate the N-th value of the _Fibonacci Sequence_ recursively.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 7. Calculate N-th _Fibonacci Number_ using _Tail Recursion_.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 8. Calculate _Fibonacci Numbers_ without _Recursion_ or _Iteration_ (Binet's formula).
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 9. Generate and display _Fibonacci Numbers_ within a given range.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
+## 🔹 10. Get _Fibonacci Number_ in _O(log n)_ time using _Matrix Exponentiation_.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Fibonacci Sequence](https://devinterview.io/data/fibonacciSeries-interview-questions)
+
+---
+
